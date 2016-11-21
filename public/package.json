@@ -1,0 +1,23 @@
+{
+  "name": "ramarks-exercise",
+  "version": "1.0.0",
+  "description": "exercise by barak",
+  "author": "Barak Pinchas <barakps@gmail.com>",
+  "scripts": {
+    "test": "karma start",
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barak.org"
+  },
+  "dependencies": {
+    "js-md5": "^0.4.1"
+  },
+  "devDependencies": {},
+  "publishConfig": {
+    "registry": "https://barak-.registry.nodejitsu.com"
+  },
+  "license": "MIT"
+}

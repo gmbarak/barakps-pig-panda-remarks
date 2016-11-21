@@ -1,0 +1,127 @@
+html {
+    height: 100%;
+}
+
+.remarks-body {
+    height: calc(100% - 21px);
+}
+
+.parent-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.remark-input-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    background: light-gray;
+    width: 450px;
+    min-height: 230px;
+    height: 230px;
+    background-color: lightgray;
+}
+
+    .remark-input-container textarea {
+        resize: none;
+        padding: 5px;
+    }
+
+    .remark-input-container input {
+        padding: 5px;
+    }
+
+.email-container {
+    margin: 10px;
+}
+
+.remark-container {
+    margin: 10px;
+    height: 100px;
+}
+
+.remark-submit-button {
+    margin: 10px;
+    margin-left: auto;
+    border: 0;
+    background: gray;
+    color: white;
+    font-size: 18px;
+    box-shadow: none;
+    border-radius: 0px;
+    text-transform: uppercase;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+    .remark-submit-button:focus {
+        outline: 0;
+    }
+
+    .remark-submit-button:hover {
+        background-color: royalblue;
+    }
+
+    .remark-submit-button:disabled {
+        opacity: 0.5;
+        background-color: gray;
+    }
+
+.remarks-history {
+    flex-grow: 1;
+    width: 450px;
+    display: inline-flex;
+    flex-direction: column;
+    width: 450px;
+    overflow-y: auto;
+}
+
+.remark-entry {
+    padding: 10px;
+}
+
+    .remark-entry img {
+        height: 50px;
+        float: left;
+        display: block;
+        margin-right: 10px;
+    }
+
+.remark-entry-content {
+    display: inline-flex;
+}
+
+.remark-entry p {
+    display: block;
+    width: 100%;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.remark-entry:hover {
+    background-color: gainsboro;
+}
+
+.remark-list-content {
+    font-family: Open Sans;
+    color: #666666;
+}
+
+.remark-list-email {
+    font-family: Open Sans;
+    font-weight: bold;
+}
+
+.remark-input-container form {
+    display: flex;
+    flex-direction: column;
+}

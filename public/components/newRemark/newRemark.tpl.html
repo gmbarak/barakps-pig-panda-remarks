@@ -1,0 +1,12 @@
+<form name="newRemarkForm">
+    <input name="input" class="email-container"
+           placeholder="Email"
+           type="email"
+           ng-model="email" ng-trim="false" required></input>
+    <textarea type="text" name="input" class="remark-container"
+              placeholder="Message"
+              ng-model="content" ng-trim="false"></textarea>
+    <button ng-click="addRemark()" class="remark-submit-button" ng-disabled="!email || !content || !newRemarkForm.$valid">
+        Submit
+    </button>
+</form>
